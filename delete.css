@@ -1,0 +1,91 @@
+p{
+  font-family: 'Raleway';
+  margin: 0;
+}
+
+body{
+  margin: 0;
+}
+
+::-webkit-input-placeholder{
+  color:white;
+  font-family: 'Raleway';
+  padding-left: 50px;
+}
+
+.body{
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  position: relative;
+  overflow: hidden;
+  place-items: center;
+}
+.form-container{
+  height: 250px;
+  width: 350px;
+  border-radius: 20px;
+  background-color:rgba(0,0,0,0.8);
+}
+
+
+.title{
+  padding-top: 50px;
+  padding-left: 86px;
+  color: white;
+  font-size: 15px;
+  font-weight:bolder;
+  cursor:default;
+}
+.id{
+  margin-top: 10px;
+  margin-left: 90px;
+  width: 150px;
+  height: 35px;
+  border-radius: 3px;
+  border: none;
+  font-weight: 300;
+  background-color: rgba(0,0,0,0.3);
+  color: white;
+}
+.button1{
+  margin-top: 30px;
+  margin-left: 12px;
+  background-color:rgba(0,0,0,0.3);
+  border-radius: 7px;
+  color: white;
+  border: none;
+  height: 45px;
+  width: 325px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  margin-right: 10px;
+
+  transition: background-color 0.5s,
+    border-color 0.5s;
+}
+
+.button1:hover{
+  background-color: white;
+  color: black;
+}
+
+.butp{
+  font-weight: 500;
+  font-size: 15px;
+  
+}
+
+.video-bg1{
+  position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+height: 100%;
+width: 100%;
+z-index: -1;
+
+
+object-fit: cover;
+}
